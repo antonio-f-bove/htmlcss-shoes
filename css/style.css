@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------- */
+
+nav ul {
+    list-style: none;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+nav li {
+    display: inline-block;
+    background: lightgrey;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.card {
+    height: 100vh;
+}
+
+#card1 {
+    background-color: red;
+}
+#card2 {
+    background-color: green;
+}
+#card3 {
+    background-color: yellow;
+}
